@@ -14,7 +14,8 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import type { checklist, ChecklistGroup } from './data/checklist';
+import type { ChecklistGroup } from './data/checklist';
+import { checklist } from './data/checklist';
 import ChecklistGroupComponent from "./components/CheckListGroup.vue";
 
 export default defineComponent({
